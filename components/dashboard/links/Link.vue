@@ -37,7 +37,6 @@ function updateLink(link, type) {
   <Card>
     <NuxtLink
       class="flex flex-col p-4 space-y-3"
-      :to="`/dashboard/link?slug=${link.slug}`"
     >
       <div class="flex items-center justify-center space-x-3">
         <Avatar>
