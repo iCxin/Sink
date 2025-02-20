@@ -15,9 +15,6 @@ const route = useRoute()
         >
           Links
         </TabsTrigger>
-        <TabsTrigger value="/dashboard/analysis">
-          Analysis
-        </TabsTrigger>
       </TabsList>
     </Tabs>
     <slot name="left" />
