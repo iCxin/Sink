@@ -9,13 +9,6 @@ const route = useRoute()
       :default-value="route.path"
       @update:model-value="navigateTo"
     >
-      <TabsList>
-        <TabsTrigger
-          value="/dashboard/links"
-        >
-          Links
-        </TabsTrigger>
-      </TabsList>
     </Tabs>
     <slot name="left" />
     <div>
